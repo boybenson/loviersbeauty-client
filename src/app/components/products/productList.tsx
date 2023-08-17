@@ -13,7 +13,7 @@ const ProductList = ({ data, title, url, showMore }: ProductListProps) => {
       <div className="flex justify-between items-center">
         <h1 className="text-lg font-semibold capitalize my-4">{title}</h1>
         {showMore && (
-          <a href={url || "#"} className="text-pink-700 text-sm">
+          <a href={url || "#"} className="text-primary text-sm">
             Show More
           </a>
         )}

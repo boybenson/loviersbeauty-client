@@ -34,10 +34,10 @@ const Header = () => {
           <button
             onClick={() => {
               toast("This feature is not yet available", {
-                className: "bg-pink-500 text-white",
+                className: "bg-primary text-white",
               });
             }}
-            className="text-pink-600 drop-shadow-md hover:text-pink-700 px-2  border-2 border-transparent hover:cursor-pointer"
+            className="text-primary drop-shadow-md hover:text-primary_hover px-2  border-2 border-transparent hover:cursor-pointer"
           >
             Book Appointment
           </button>
@@ -50,7 +50,7 @@ const Header = () => {
             <button className="border border-gray-400 py-1 px-4 text-primaryBrown font-bold">
               Login
             </button>
-            <button className="border  py-1 px-4 bg-pink-500 text-white">
+            <button className="border  py-1 px-4 bg-primary text-white">
               Sign Up
             </button>
           </div>
