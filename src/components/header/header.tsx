@@ -1,5 +1,6 @@
 "use client";
 import toast from "react-hot-toast";
+
 const Header = () => {
   return (
     <header className="border border-b-[#cfcfcf]">
@@ -34,10 +35,10 @@ const Header = () => {
           <button
             onClick={() => {
               toast("This feature is not yet available", {
-                className: "bg-primary text-white",
+                className: "bg-primary_purple text-white",
               });
             }}
-            className="text-primary drop-shadow-md hover:text-primary_hover px-2  border-2 border-transparent hover:cursor-pointer"
+            className="text-primary_purple drop-shadow-md hover:text-primary_hover px-2  border-2 border-transparent hover:cursor-pointer"
           >
             Book Appointment
           </button>
@@ -50,7 +51,7 @@ const Header = () => {
             <button className="border border-gray-400 py-1 px-4 text-primaryBrown font-bold">
               Login
             </button>
-            <button className="border  py-1 px-4 bg-primary text-white">
+            <button className="border  py-1 px-4 bg-primary_purple text-white">
               Sign Up
             </button>
           </div>

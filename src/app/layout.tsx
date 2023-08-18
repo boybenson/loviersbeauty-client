@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { Toaster } from "react-hot-toast";
-import { Header } from "./components";
+import { Header } from "@/components/index";
 
 const nunito = Nunito({ subsets: ["latin"] });
 

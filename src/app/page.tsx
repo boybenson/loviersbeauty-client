@@ -5,7 +5,7 @@ import {
   Gallery,
   Hero,
   ProductList,
-} from "./components";
+} from "@/components/index";
 
 const recommendedProducts = [
   { id: "1", name: "Product 1", price: 100, imgUrl: "./hair-1.jpg" },

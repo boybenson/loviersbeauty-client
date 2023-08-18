@@ -85,7 +85,7 @@ const ProductCard = ({ product, sold }: productProps) => {
             <span className="text-3xl font-bold text-gray-900 ">$599</span>
             <a
               href="#"
-              className="text-white bg-primary hover:bg-primary_hover focus:ring-4 focus:outline-none focus:ring-primary_hover font-medium rounded-lg text-sm px-5 py-2.5 text-center transition-all duration-200 "
+              className="text-white bg-primary_purple hover:bg-primary_hover focus:ring-4 focus:outline-none focus:ring-primary_hover font-medium rounded-lg text-sm px-5 py-2.5 text-center transition-all duration-200 "
             >
               Add to cart
             </a>
